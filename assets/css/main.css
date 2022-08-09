@@ -60,3 +60,56 @@ h1 {
   opacity: 0.8;
   font-size: 18px;
 }
+
+ul {
+  list-style: none;
+  margin: 48px 0;
+}
+
+ul li a {
+  height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--ul-color);
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+
+  margin-bottom: 16px;
+  border-radius: 6px;
+
+  transition: background 400ms;
+}
+ul li a i {
+  width: 30 px;
+}
+
+/* pseudo-class */
+ul li a:hover {
+  background: var(--ul-hover-color);
+}
+
+footer {
+  font-weight: 500;
+  font-style: 12px;
+  opacity: 0.6;
+
+  transition: opacity 400ms;
+}
+
+footer:hover {
+  opacity: 1;
+}
+
+footer a {
+  color: var(--text-color);
+}
+i.fa-brands,
+i.fa {
+  font-size: 30px;
+}
+
+i {
+  margin-right: 20px;
+}
